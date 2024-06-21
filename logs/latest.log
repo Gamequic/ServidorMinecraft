@@ -1,54 +1,68 @@
-[12:50:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:50:29] [ServerMain/INFO]: Loaded 1290 recipes
-[12:50:30] [ServerMain/INFO]: Loaded 1399 advancements
-[12:50:31] [Server thread/INFO]: Starting minecraft server version 1.21
-[12:50:31] [Server thread/INFO]: Loading properties
-[12:50:31] [Server thread/INFO]: This server is running Paper version 1.21-1-master@21c9a7c (2024-06-17T19:43:38Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[12:50:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:50:32] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:50:33] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[16:25:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:25:50] [ServerMain/INFO]: Loaded 1290 recipes
+[16:25:50] [ServerMain/INFO]: Loaded 1399 advancements
+[16:25:51] [Server thread/INFO]: Starting minecraft server version 1.21
+[16:25:51] [Server thread/INFO]: Loading properties
+[16:25:51] [Server thread/INFO]: This server is running Paper version 1.21-1-master@21c9a7c (2024-06-17T19:43:38Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[16:25:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:25:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:25:54] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[12:50:33] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[12:50:33] [Server thread/INFO]: Default game type: SURVIVAL
-[12:50:33] [Server thread/INFO]: Generating keypair
-[12:50:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:50:34] [Server thread/INFO]: Using epoll channel type
-[12:50:34] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[12:50:34] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[12:50:34] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.0-SNAPSHOT
-[12:50:39] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[12:50:39] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[12:50:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:50:39] [Server thread/INFO]: Preparing level "world"
-[12:50:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:50:41] [Server thread/INFO]: Time elapsed: 1781 ms
-[12:50:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:50:42] [Server thread/INFO]: Time elapsed: 429 ms
-[12:50:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:50:42] [Server thread/INFO]: Time elapsed: 129 ms
-[12:50:42] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.0-SNAPSHOT
-[12:50:42] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[12:50:42] [Server thread/INFO]: [Geyser-Spigot] 
-[12:50:42] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.0-SNAPSHOT (git-master-77fa37f)
-[12:50:42] [Server thread/INFO]: [Geyser-Spigot] 
-[12:50:42] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[12:50:54] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[12:50:54] [Server thread/INFO]: [Geyser-Spigot] Done (12.502s)! Run /geyser help for help!
-[12:50:55] [Server thread/INFO]: Running delayed init tasks
-[12:50:55] [Server thread/INFO]: Done (24.224s)! For help, type "help"
-[12:50:55] [Server thread/INFO]: Timings Reset
-[12:51:32] [User Authenticator #0/INFO]: UUID of player Gamequic is 35825f63-b168-47e6-aad6-5ea9b55f19df
-[12:51:34] [Server thread/INFO]: Gamequic joined the game
-[12:51:34] [Server thread/INFO]: Gamequic[/201.127.185.1:54619] logged in with entity id 75 at ([world]15.694162063501423, 79.0, 98.37777900922177)
-[12:54:30] [Server thread/INFO]: Gamequic lost connection: Disconnected
-[12:54:30] [Server thread/INFO]: Gamequic left the game
-[13:15:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3068ms or 61 ticks behind
-[13:31:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2981ms or 59 ticks behind
-[13:51:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2750ms or 55 ticks behind
-[14:01:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2965ms or 59 ticks behind
-[14:06:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2827ms or 56 ticks behind
-[14:31:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2818ms or 56 ticks behind
-[14:46:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3005ms or 60 ticks behind
-[15:06:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2567ms or 51 ticks behind
-[15:20:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2673ms or 53 ticks behind
+[16:25:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[16:25:54] [Server thread/INFO]: Default game type: SURVIVAL
+[16:25:54] [Server thread/INFO]: Generating keypair
+[16:25:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:25:54] [Server thread/INFO]: Using epoll channel type
+[16:25:54] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:25:54] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[16:25:55] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.0-SNAPSHOT
+[16:25:59] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[16:25:59] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[16:25:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:25:59] [Server thread/INFO]: Preparing level "world"
+[16:26:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:26:02] [Server thread/INFO]: Time elapsed: 1915 ms
+[16:26:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:26:03] [Server thread/INFO]: Time elapsed: 701 ms
+[16:26:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:26:03] [Server thread/INFO]: Time elapsed: 248 ms
+[16:26:03] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.0-SNAPSHOT
+[16:26:03] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:26:03] [Server thread/INFO]: [Geyser-Spigot] 
+[16:26:03] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.0-SNAPSHOT (git-master-77fa37f)
+[16:26:03] [Server thread/INFO]: [Geyser-Spigot] 
+[16:26:03] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:26:16] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[16:26:16] [Server thread/INFO]: [Geyser-Spigot] Done (12.398s)! Run /geyser help for help!
+[16:26:16] [Server thread/INFO]: Running delayed init tasks
+[16:26:16] [Server thread/INFO]: Done (24.635s)! For help, type "help"
+[16:26:16] [Server thread/INFO]: Timings Reset
+[16:30:34] [Server thread/INFO]: Unknown or incomplete command, see below for error
+exit<--[HERE]
+[16:30:37] [Server thread/INFO]: Stopping the server
+[16:30:37] [Server thread/INFO]: Stopping server
+[16:30:37] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.0-SNAPSHOT
+[16:30:37] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[16:30:37] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[16:30:37] [Server thread/INFO]: Saving players
+[16:30:37] [Server thread/INFO]: Saving worlds
+[16:30:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:30:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:30:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:30:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:30:38] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.82s
+[16:30:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:30:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:30:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:30:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:30:39] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.67s
+[16:30:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:30:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:30:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:30:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:30:40] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.27s
+[16:30:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:30:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:30:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:30:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
