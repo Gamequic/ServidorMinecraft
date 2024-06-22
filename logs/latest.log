@@ -1,68 +1,686 @@
-[16:25:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:25:50] [ServerMain/INFO]: Loaded 1290 recipes
-[16:25:50] [ServerMain/INFO]: Loaded 1399 advancements
-[16:25:51] [Server thread/INFO]: Starting minecraft server version 1.21
-[16:25:51] [Server thread/INFO]: Loading properties
-[16:25:51] [Server thread/INFO]: This server is running Paper version 1.21-1-master@21c9a7c (2024-06-17T19:43:38Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[16:25:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:25:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:25:54] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[17:50:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:50:37] [ServerMain/INFO]: Loaded 1290 recipes
+[17:50:38] [ServerMain/INFO]: Loaded 1399 advancements
+[17:50:38] [Server thread/INFO]: Starting minecraft server version 1.21
+[17:50:38] [Server thread/INFO]: Loading properties
+[17:50:39] [Server thread/INFO]: This server is running Paper version 1.21-1-master@21c9a7c (2024-06-17T19:43:38Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[17:50:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:50:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:50:41] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[16:25:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[16:25:54] [Server thread/INFO]: Default game type: SURVIVAL
-[16:25:54] [Server thread/INFO]: Generating keypair
-[16:25:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:25:54] [Server thread/INFO]: Using epoll channel type
-[16:25:54] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:25:54] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[16:25:55] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.0-SNAPSHOT
-[16:25:59] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[16:25:59] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[16:25:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:25:59] [Server thread/INFO]: Preparing level "world"
-[16:26:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:26:02] [Server thread/INFO]: Time elapsed: 1915 ms
-[16:26:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:26:03] [Server thread/INFO]: Time elapsed: 701 ms
-[16:26:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:26:03] [Server thread/INFO]: Time elapsed: 248 ms
-[16:26:03] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.0-SNAPSHOT
-[16:26:03] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[16:26:03] [Server thread/INFO]: [Geyser-Spigot] 
-[16:26:03] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.0-SNAPSHOT (git-master-77fa37f)
-[16:26:03] [Server thread/INFO]: [Geyser-Spigot] 
-[16:26:03] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[16:26:16] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[16:26:16] [Server thread/INFO]: [Geyser-Spigot] Done (12.398s)! Run /geyser help for help!
-[16:26:16] [Server thread/INFO]: Running delayed init tasks
-[16:26:16] [Server thread/INFO]: Done (24.635s)! For help, type "help"
-[16:26:16] [Server thread/INFO]: Timings Reset
-[16:30:34] [Server thread/INFO]: Unknown or incomplete command, see below for error
-exit<--[HERE]
-[16:30:37] [Server thread/INFO]: Stopping the server
-[16:30:37] [Server thread/INFO]: Stopping server
-[16:30:37] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.0-SNAPSHOT
-[16:30:37] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[16:30:37] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[16:30:37] [Server thread/INFO]: Saving players
-[16:30:37] [Server thread/INFO]: Saving worlds
-[16:30:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:30:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[16:30:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[16:30:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[16:30:38] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.82s
-[16:30:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:30:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[16:30:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[16:30:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[16:30:39] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.67s
-[16:30:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:30:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[16:30:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[16:30:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[16:30:40] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.27s
-[16:30:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:30:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:30:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:30:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:50:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[17:50:41] [Server thread/INFO]: Default game type: SURVIVAL
+[17:50:41] [Server thread/INFO]: Generating keypair
+[17:50:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:50:42] [Server thread/INFO]: Using epoll channel type
+[17:50:42] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:50:42] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[17:50:42] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.0-SNAPSHOT
+[17:50:46] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[17:50:46] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[17:50:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:50:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:50:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:50:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:50:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:50:46] [Server thread/INFO]: Preparing level "world"
+[17:50:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:50:48] [Server thread/INFO]: Time elapsed: 1781 ms
+[17:50:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:50:49] [Server thread/INFO]: Time elapsed: 377 ms
+[17:50:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:50:49] [Server thread/INFO]: Time elapsed: 185 ms
+[17:50:49] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.0-SNAPSHOT
+[17:50:49] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:50:49] [Server thread/INFO]: [Geyser-Spigot] 
+[17:50:49] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.0-SNAPSHOT (git-master-77fa37f)
+[17:50:49] [Server thread/INFO]: [Geyser-Spigot] 
+[17:50:49] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:51:01] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[17:51:01] [Server thread/INFO]: [Geyser-Spigot] Done (11.994s)! Run /geyser help for help!
+[17:51:01] [Server thread/INFO]: Running delayed init tasks
+[17:51:01] [Server thread/INFO]: Done (22.996s)! For help, type "help"
+[17:51:01] [Server thread/INFO]: Timings Reset
+[17:51:02] [User Authenticator #0/INFO]: UUID of player Defter97 is a5c47721-34c0-3b33-a77f-497f0203ec69
+[17:51:02] [User Authenticator #0/INFO]: UUID of player HonyDough is a91e223d-fbe8-328d-a1a2-ba2858b8766c
+[17:51:02] [Server thread/INFO]: Defter97 (/201.146.112.198:51296) lost connection: Disconnected
+[17:51:04] [Server thread/INFO]: HonyDough joined the game
+[17:51:04] [Server thread/INFO]: HonyDough[/189.203.100.113:53843] logged in with entity id 80 at ([world]45.30000001192093, 71.0, 66.76913119664165)
+[17:51:06] [User Authenticator #0/INFO]: UUID of player fiona4815 is 23905dcf-854e-3b4c-86e9-ff08425ed34e
+[17:51:09] [User Authenticator #0/INFO]: UUID of player Defter97 is a5c47721-34c0-3b33-a77f-497f0203ec69
+[17:51:09] [Server thread/INFO]: fiona4815 joined the game
+[17:51:09] [Server thread/INFO]: fiona4815[/189.203.94.244:57681] logged in with entity id 226 at ([world]21.33922778114955, 127.0, 2.6338612903277885)
+[17:51:10] [Server thread/INFO]: Defter97 joined the game
+[17:51:10] [Server thread/INFO]: Defter97[/201.146.112.198:51298] logged in with entity id 349 at ([world]-2.602180533910361, 100.85489329934836, 88.8936100897236)
+[17:51:13] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username WICHOGAMER21
+[17:51:13] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username gamequic
+[17:51:13] [localSession-7-3/INFO]: [Geyser-Spigot] gamequic (logged in as: gamequic) has connected to the Java server
+[17:51:13] [localSession-7-2/INFO]: [Geyser-Spigot] WICHOGAMER21 (logged in as: WICHOGAMER21) has connected to the Java server
+[17:51:13] [User Authenticator #0/INFO]: UUID of player WICHOGAMER21 is 212e694f-f7ba-34e0-9f4a-9ac6d9a7400c
+[17:51:13] [User Authenticator #1/INFO]: UUID of player gamequic is 2c35de3d-8cdd-33c2-863b-35ea2a3d8be8
+[17:51:14] [Server thread/INFO]: WICHOGAMER21 joined the game
+[17:51:14] [Server thread/INFO]: WICHOGAMER21[/189.199.34.12:0] logged in with entity id 413 at ([world]5.5, 124.0, -8.5)
+[17:51:14] [Server thread/INFO]: gamequic joined the game
+[17:51:14] [Server thread/INFO]: gamequic[/192.168.1.236:0] logged in with entity id 414 at ([world]21.806053, 128.0, 3.2437532)
+[17:51:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2577ms or 51 ticks behind
+[17:51:25] [Server thread/INFO]: HonyDough has made the advancement [Isn't It Iron Pick]
+[17:51:30] [localSession-7-3/INFO]: [Geyser-Spigot] gamequic has disconnected from the Java server because of Bedrock client disconnected
+[17:51:30] [Server thread/INFO]: gamequic lost connection: Disconnected
+[17:51:30] [Server thread/INFO]: gamequic left the game
+[17:51:33] [Server thread/INFO]: HonyDough has made the advancement [Stone Age]
+[17:51:48] [Server thread/INFO]: HonyDough has made the advancement [Suit Up]
+[17:52:00] [User Authenticator #1/INFO]: UUID of player Gamequic is cdc715a3-b9b8-3400-a4cc-978c108b6745
+[17:52:02] [Server thread/INFO]: Gamequic joined the game
+[17:52:02] [Server thread/INFO]: Gamequic[/201.127.133.70:59245] logged in with entity id 590 at ([world]7.5, 136.0, -0.5)
+[17:52:08] [Server thread/INFO]: Nothing changed. The player already is an operator
+[17:52:27] [Server thread/INFO]: Gamequic issued server command: /gamemode creative
+[17:52:27] [Server thread/INFO]: [Gamequic: Set own game mode to Creative Mode]
+[17:52:28] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[17:52:28] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[17:52:34] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[17:52:34] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[17:52:35] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[17:52:35] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[17:52:37] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[17:52:37] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[17:52:43] [Server thread/INFO]: Gamequic has made the advancement [Suit Up]
+[17:52:47] [Server thread/INFO]: Defter97 has made the advancement [Suit Up]
+[17:52:53] [Server thread/INFO]: Defter97 has made the advancement [Getting an Upgrade]
+[17:52:54] [Server thread/INFO]: Defter97 has made the advancement [Isn't It Iron Pick]
+[17:52:58] [Server thread/INFO]: Gamequic issued server command: /tp fiona4815 560 65 298.9
+[17:52:58] [Server thread/INFO]: [Gamequic: Teleported fiona4815 to 560.500000, 65.000000, 298.900000]
+[17:53:05] [Server thread/INFO]: fiona4815 has made the advancement [Cover Me with Diamonds]
+[17:53:05] [Server thread/INFO]: fiona4815 has made the advancement [Suit Up]
+[17:53:07] [Server thread/INFO]: Defter97 has made the advancement [Stone Age]
+[17:53:07] [Server thread/INFO]: fiona4815 has made the advancement [Isn't It Iron Pick]
+[17:53:08] [Server thread/INFO]: Defter97 has made the advancement [Acquire Hardware]
+[17:53:13] [Server thread/INFO]: Gamequic issued server command: /tp WICHOGAMER21 fiona4815
+[17:53:13] [Server thread/INFO]: [Gamequic: Teleported WICHOGAMER21 to fiona4815]
+[17:53:13] [Server thread/WARN]: WICHOGAMER21 moved too quickly! 324.4050247750129,-17.0,212.0095487486829
+[17:53:13] [Server thread/WARN]: WICHOGAMER21 moved too quickly! 324.4050247750129,-17.0,212.0095487486829
+[17:53:13] [Server thread/WARN]: WICHOGAMER21 moved too quickly! 324.4050247750129,-17.0,212.0095487486829
+[17:53:13] [Server thread/WARN]: WICHOGAMER21 moved too quickly! 324.4050247750129,-17.0,212.0095487486829
+[17:53:13] [Server thread/WARN]: WICHOGAMER21 moved too quickly! 324.4050247750129,-17.0,212.0095487486829
+[17:53:13] [Server thread/WARN]: WICHOGAMER21 moved too quickly! 324.4050247750129,-17.0,212.0095487486829
+[17:53:13] [Server thread/WARN]: WICHOGAMER21 moved too quickly! 324.4050247750129,-17.0,212.0095487486829
+[17:53:13] [Server thread/WARN]: WICHOGAMER21 moved too quickly! 324.4050247750129,-17.0,212.0095487486829
+[17:53:13] [Server thread/WARN]: WICHOGAMER21 moved too quickly! 324.4050247750129,-17.0,212.0095487486829
+[17:53:13] [Server thread/WARN]: WICHOGAMER21 moved too quickly! 324.4050247750129,-17.0,212.0095487486829
+[17:53:13] [Server thread/WARN]: WICHOGAMER21 moved too quickly! 324.4050247750129,-17.0,212.0095487486829
+[17:53:13] [Server thread/WARN]: WICHOGAMER21 moved too quickly! 324.4050247750129,-17.0,212.0095487486829
+[17:53:29] [Server thread/INFO]: Gamequic issued server command: /xp add fiona4815 26
+[17:53:29] [Server thread/INFO]: [Gamequic: Gave 26 experience points to fiona4815]
+[17:53:55] [Server thread/INFO]: Gamequic issued server command: /xp add fiona4815 26 levels
+[17:53:55] [Server thread/INFO]: [Gamequic: Gave 26 experience levels to fiona4815]
+[17:54:11] [Server thread/INFO]: Gamequic issued server command: /xp set fiona4815 26 levels
+[17:54:11] [Server thread/INFO]: [Gamequic: Set 26 experience levels on fiona4815]
+[17:54:19] [Server thread/INFO]: Gamequic issued server command: /xp set HonyDough 26 levels
+[17:54:19] [Server thread/INFO]: [Gamequic: Set 26 experience levels on HonyDough]
+[17:54:23] [Server thread/INFO]: Gamequic issued server command: /xp set HonyDough 10 levels
+[17:54:23] [Server thread/INFO]: [Gamequic: Set 10 experience levels on HonyDough]
+[17:54:38] [Server thread/INFO]: Gamequic issued server command: /xp set WICHOGAMER21 35 levels
+[17:54:38] [Server thread/INFO]: [Gamequic: Set 35 experience levels on WICHOGAMER21]
+[17:54:58] [Server thread/INFO]: WICHOGAMER21 was slain by fiona4815
+[17:54:59] [Server thread/INFO]: Gamequic issued server command: /xp set Gamequic 15 levels
+[17:54:59] [Server thread/INFO]: [Gamequic: Set 15 experience levels on Gamequic]
+[17:55:10] [Server thread/INFO]: Gamequic issued server command: /deop Gamequic
+[17:55:13] [Server thread/INFO]: [Gamequic: Made Gamequic no longer a server operator]
+[17:55:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2892ms or 57 ticks behind
+[17:55:13] [Server thread/WARN]: HonyDough moved too quickly! 12.084660571300617,-3.2286092609382138,0.6567409756990799
+[17:55:13] [Server thread/WARN]: Gamequic moved too quickly! 1.610695153397657,1.1767592750642422,-10.018499244379285
+[17:55:33] [Server thread/INFO]: fiona4815 has made the advancement [Acquire Hardware]
+[17:56:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3900ms or 78 ticks behind
+[17:56:44] [Server thread/INFO]: WICHOGAMER21 has made the advancement [Stone Age]
+[17:56:45] [Server thread/INFO]: fiona4815 has made the advancement [Stone Age]
+[17:57:06] [Server thread/INFO]: WICHOGAMER21 has made the advancement [Getting an Upgrade]
+[17:58:27] [Server thread/INFO]: Made Gamequic a server operator
+[17:58:43] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[17:58:43] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[17:58:51] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[17:58:51] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[17:58:53] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[17:58:56] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[17:58:56] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[17:58:59] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[17:58:59] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[17:59:39] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[17:59:39] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[17:59:43] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[17:59:43] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[17:59:50] [Server thread/INFO]: Gamequic has made the advancement [We Need to Go Deeper]
+[17:59:53] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[17:59:53] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:00:08] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:00:08] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:00:15] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:00:15] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:00:19] [Server thread/INFO]: WICHOGAMER21 has made the advancement [Monster Hunter]
+[18:00:25] [Server thread/INFO]: HonyDough has made the advancement [We Need to Go Deeper]
+[18:00:25] [Server thread/INFO]: Gamequic issued server command: /tp Gamequic HonyDough
+[18:00:25] [Server thread/INFO]: [Gamequic: Teleported Gamequic to HonyDough]
+[18:00:28] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:00:28] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:00:36] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:00:36] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:00:46] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:00:46] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:00:48] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:00:48] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:00:53] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:00:53] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:00:56] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:00:56] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:00:58] [Server thread/INFO]: Gamequic issued server command: /gamemode creative
+[18:00:58] [Server thread/INFO]: [Gamequic: Set own game mode to Creative Mode]
+[18:01:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2721ms or 54 ticks behind
+[18:01:13] [Server thread/WARN]: HonyDough moved too quickly! 5.553732299227683,-8.109552546740034,-3.25152804073619
+[18:01:23] [Server thread/INFO]: WICHOGAMER21 was slain by Zombie
+[18:01:44] [Server thread/INFO]: Gamequic issued server command: /xp set WICHOGAMER21 60 levels
+[18:01:44] [Server thread/INFO]: [Gamequic: Set 60 experience levels on WICHOGAMER21]
+[18:02:04] [Server thread/INFO]: fiona4815 has made the advancement [Monster Hunter]
+[18:02:15] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:02:15] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:02:16] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:02:16] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:02:21] [Server thread/INFO]: Gamequic issued server command: /xp set WICHOGAMER21 60 levels
+[18:02:21] [Server thread/INFO]: [Gamequic: Set 60 experience levels on WICHOGAMER21]
+[18:02:45] [Server thread/INFO]: Gamequic issued server command: /xp add WICHOGAMER21 60 levels
+[18:02:45] [Server thread/INFO]: [Gamequic: Gave 60 experience levels to WICHOGAMER21]
+[18:02:46] [Server thread/WARN]: WICHOGAMER21 moved wrongly!
+[18:02:49] [Server thread/INFO]: WICHOGAMER21 tried to swim in lava
+[18:02:56] [Server thread/INFO]: Defter97 has made the advancement [Monster Hunter]
+[18:03:29] [Server thread/INFO]: Gamequic issued server command: /scoreboard objectives add xp level
+[18:03:29] [Server thread/INFO]: [Gamequic: Created new objective [xp]]
+[18:03:41] [Server thread/INFO]: Gamequic issued server command: /scoreboard objectives setdisplay list xp
+[18:03:41] [Server thread/INFO]: [Gamequic: Set display slot list to show objective xp]
+[18:03:42] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:03:47] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:03:49] [Server thread/INFO]: Gamequic issued server command: /xp add WICHOGAMER21 60 levels
+[18:03:49] [Server thread/INFO]: [Gamequic: Gave 60 experience levels to WICHOGAMER21]
+[18:03:51] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:03:54] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:03:55] [Server thread/INFO]: Gamequic issued server command: /xp add WICHOGAMER21 60 levels
+[18:03:55] [Server thread/INFO]: [Gamequic: Gave 60 experience levels to WICHOGAMER21]
+[18:03:56] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:03:57] [Server thread/INFO]: Gamequic issued server command: /xp add WICHOGAMER21 60 levels
+[18:03:57] [Server thread/INFO]: [Gamequic: Gave 60 experience levels to WICHOGAMER21]
+[18:03:58] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:03:59] [Server thread/INFO]: Gamequic issued server command: /xp add WICHOGAMER21 60 levels
+[18:03:59] [Server thread/INFO]: [Gamequic: Gave 60 experience levels to WICHOGAMER21]
+[18:04:03] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:04:04] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:04:05] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:04:10] [Server thread/INFO]: Gamequic issued server command: /xp add WICHOGAMER21 120 levels
+[18:04:10] [Server thread/INFO]: [Gamequic: Gave 120 experience levels to WICHOGAMER21]
+[18:04:11] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:04:12] [Server thread/INFO]: WICHOGAMER21 was impaled on a stalagmite
+[18:04:12] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:04:14] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:04:15] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:04:18] [Server thread/INFO]: fiona4815 has made the advancement [Getting an Upgrade]
+[18:04:24] [Server thread/INFO]: Gamequic issued server command: /xp add WICHOGAMER21 100000 levels
+[18:04:24] [Server thread/INFO]: [Gamequic: Gave 100000 experience levels to WICHOGAMER21]
+[18:04:41] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:04:43] [Server thread/INFO]: Gamequic issued server command: /gamemode creative
+[18:04:43] [Server thread/INFO]: [Gamequic: Set own game mode to Creative Mode]
+[18:04:44] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:04:45] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:04:46] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:04:48] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:04:49] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:04:50] [Server thread/INFO]: Gamequic issued server command: /tp fiona4815 WICHOGAMER21
+[18:04:50] [Server thread/INFO]: [Gamequic: Teleported fiona4815 to WICHOGAMER21]
+[18:04:52] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:04:56] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:01] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:01] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:02] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:02] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:03] [Server thread/INFO]: WICHOGAMER21 was slain by fiona4815
+[18:05:03] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:06] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:16] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:17] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:20] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:21] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:21] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:21] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:22] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:22] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:22] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:23] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:23] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:23] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:23] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:24] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:26] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:29] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:30] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:32] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:32] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:33] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:34] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:34] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:35] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:39] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:43] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:46] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:46] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:47] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:48] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:52] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:53] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:53] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:54] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:54] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:54] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:55] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:56] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:58] [Server thread/INFO]: Gamequic has made the advancement [Acquire Hardware]
+[18:05:58] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:58] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:05:58] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:06:04] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:06:05] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:06:06] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:06:10] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:06:10] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:06:11] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:06:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3704ms or 74 ticks behind
+[18:06:17] [Server thread/WARN]: Gamequic moved too quickly! -8.89505449740372,0.0,7.362999804751638
+[18:06:19] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:06:38] [Server thread/INFO]: Gamequic issued server command: /gamemode creative
+[18:06:38] [Server thread/INFO]: [Gamequic: Set own game mode to Creative Mode]
+[18:06:39] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:06:39] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:06:40] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:06:40] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:06:42] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:06:42] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:06:47] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:06:49] [Server thread/INFO]: Gamequic issued server command: /xp add WICHOGAMER21 10000000 levels
+[18:06:49] [Server thread/INFO]: [Gamequic: Gave 10000000 experience levels to WICHOGAMER21]
+[18:07:00] [Server thread/INFO]: HonyDough has made the advancement [A Seedy Place]
+[18:07:22] [Geyser player thread-5-2/INFO]: [Geyser-Spigot] Tried to update score without the existence of its requested objective 'Health'
+[18:07:31] [localSession-7-2/INFO]: [Geyser-Spigot] WICHOGAMER21 has disconnected from the Java server because of Bedrock client disconnected
+[18:07:31] [Server thread/INFO]: WICHOGAMER21 lost connection: Disconnected
+[18:07:32] [Server thread/INFO]: WICHOGAMER21 left the game
+[18:08:47] [Server thread/INFO]: fiona4815 lost connection: Disconnected
+[18:08:47] [Server thread/INFO]: fiona4815 left the game
+[18:08:51] [Server thread/INFO]: Gamequic was slain by Iron Golem
+[18:08:55] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:08:55] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:09:00] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:09:00] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:09:04] [Server thread/WARN]: Gamequic was kicked for floating too long!
+[18:09:04] [Server thread/INFO]: Gamequic lost connection: Flying is not enabled on this server
+[18:09:05] [Server thread/INFO]: Gamequic left the game
+[18:09:57] [User Authenticator #2/INFO]: UUID of player Gamequic is cdc715a3-b9b8-3400-a4cc-978c108b6745
+[18:09:58] [Server thread/INFO]: Gamequic joined the game
+[18:09:58] [Server thread/INFO]: Gamequic[/201.127.133.70:59618] logged in with entity id 8691 at ([world]35.87399146324624, 140.1021541302973, 105.66952333448928)
+[18:10:00] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:10:00] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:10:04] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:10:04] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:11:01] [Server thread/INFO]: Defter97 has made the advancement [We Need to Go Deeper]
+[18:11:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3237ms or 64 ticks behind
+[18:11:49] [Server thread/INFO]: HonyDough has made the advancement [Acquire Hardware]
+[18:11:56] [Server thread/INFO]: HonyDough was slain by Gamequic
+[18:12:09] [Server thread/INFO]: Gamequic issued server command: /tp HonyDough Gamequic
+[18:12:09] [Server thread/INFO]: [Gamequic: Teleported HonyDough to Gamequic]
+[18:12:21] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:12:21] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:12:33] [Server thread/INFO]: Defter97 has made the advancement [A Seedy Place]
+[18:12:40] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:12:40] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:12:42] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:12:42] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:12:47] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:12:47] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:12:55] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:12:55] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:13:04] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:13:04] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:13:10] [Server thread/INFO]: Defter97 was slain by HonyDough
+[18:13:14] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:13:14] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:13:22] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:13:22] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:14:29] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:14:29] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:14:44] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:14:44] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:14:58] [Server thread/INFO]: HonyDough was slain by Gamequic
+[18:15:13] [Server thread/INFO]: Gamequic issued server command: /tp HonyDough Gamequic
+[18:15:13] [Server thread/INFO]: [Gamequic: Teleported HonyDough to Gamequic]
+[18:15:57] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:15:57] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:16:00] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:16:01] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:16:17] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:16:17] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:16:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3541ms or 70 ticks behind
+[18:16:24] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:16:24] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:16:24] [Server thread/WARN]: HonyDough moved too quickly! 6.7910497536444865,-3.395575898673286,-7.7876227562587985
+[18:16:32] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:16:32] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:16:54] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:16:54] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:17:10] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:17:10] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:17:25] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:17:25] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:17:40] [Server thread/INFO]: HonyDough was slain by Gamequic
+[18:18:01] [Server thread/INFO]: Gamequic issued server command: /tp HonyDough Gamequic
+[18:18:01] [Server thread/INFO]: [Gamequic: Teleported HonyDough to Gamequic]
+[18:18:51] [User Authenticator #3/INFO]: UUID of player fiona4815 is 23905dcf-854e-3b4c-86e9-ff08425ed34e
+[18:18:52] [Server thread/INFO]: fiona4815 joined the game
+[18:18:52] [Server thread/INFO]: fiona4815[/189.203.94.244:18972] logged in with entity id 11190 at ([world]554.8220815053808, 63.0, 304.89735320675993)
+[18:18:58] [Server thread/INFO]: HonyDough was slain by Gamequic
+[18:19:55] [Server thread/INFO]: Gamequic was slain by HonyDough
+[18:20:07] [Server thread/INFO]: HonyDough has made the advancement [Monster Hunter]
+[18:20:17] [Server thread/INFO]: Defter97 has made the advancement [Minecraft: Trial(s) Edition]
+[18:20:29] [Server thread/INFO]: Gamequic issued server command: /tp fiona4815 Gamequic
+[18:20:29] [Server thread/INFO]: [Gamequic: Teleported fiona4815 to Gamequic]
+[18:21:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4824ms or 96 ticks behind
+[18:21:29] [Server thread/INFO]: Defter97 has made the advancement [Sweet Dreams]
+[18:21:29] [Server thread/WARN]: fiona4815 moved too quickly! -5.949289871278708,-5.580000013113022,-13.82396568383055
+[18:21:29] [Server thread/WARN]: HonyDough moved too quickly! 4.916197559869332,-3.823240724935758,-7.908707724334164
+[18:22:33] [Server thread/INFO]: Gamequic has made the advancement [Sweet Dreams]
+[18:22:40] [Server thread/INFO]: HonyDough has made the advancement [Sweet Dreams]
+[18:22:42] [Server thread/INFO]: Defter97 has made the advancement [Under Lock and Key]
+[18:23:13] [Server thread/INFO]: Gamequic has made the advancement [Monster Hunter]
+[18:23:26] [Server thread/INFO]: fiona4815 lost connection: Disconnected
+[18:23:26] [Server thread/INFO]: fiona4815 left the game
+[18:23:42] [User Authenticator #4/INFO]: UUID of player fiona4815 is 23905dcf-854e-3b4c-86e9-ff08425ed34e
+[18:23:43] [Server thread/INFO]: fiona4815 joined the game
+[18:23:43] [Server thread/INFO]: fiona4815[/189.203.94.244:58518] logged in with entity id 12455 at ([world]248.46742714971163, 61.20731597453098, 180.00927309548658)
+[18:25:08] [Server thread/INFO]: fiona4815 lost connection: Disconnected
+[18:25:08] [User Authenticator #5/INFO]: UUID of player fiona4815 is 23905dcf-854e-3b4c-86e9-ff08425ed34e
+[18:25:08] [Server thread/INFO]: fiona4815 left the game
+[18:25:09] [Server thread/INFO]: fiona4815 joined the game
+[18:25:09] [Server thread/INFO]: fiona4815[/189.203.94.244:58541] logged in with entity id 13020 at ([world]509.326178115604, 68.0, 231.49952610827188)
+[18:28:55] [Server thread/INFO]: HonyDough was slain by Iron Golem
+[18:29:28] [Server thread/INFO]: Defter97 has made the advancement [Not Today, Thank You]
+[18:30:14] [Server thread/INFO]: Gamequic has made the advancement [Into Fire]
+[18:30:17] [Server thread/INFO]: Gamequic has made the advancement [Stone Age]
+[18:31:08] [Server thread/INFO]: Defter97 has made the advancement [Ol' Betsy]
+[18:31:08] [Server thread/INFO]: Defter97 has made the advancement [Take Aim]
+[18:31:25] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[18:31:25] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[18:31:26] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[18:31:26] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[18:31:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3360ms or 67 ticks behind
+[18:31:32] [Server thread/WARN]: Gamequic moved too quickly! 11.593695720315466,1.2987031463477763,6.395092563956098
+[18:31:42] [Server thread/INFO]: fiona4815 has made the advancement [Into Fire]
+[18:34:39] [Server thread/INFO]: Gamequic issued server command: /deop Gamequic
+[18:34:42] [Server thread/INFO]: [Gamequic: Made Gamequic no longer a server operator]
+[18:34:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2990ms or 59 ticks behind
+[18:34:42] [Server thread/WARN]: Gamequic moved too quickly! 8.628323458962655,2.7531999805212024,4.600889727703219
+[18:36:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3527ms or 70 ticks behind
+[18:36:38] [Server thread/WARN]: fiona4815 moved too quickly! 10.67297289388182,-1.796735600668697,-12.869593081988626
+[18:38:27] [Server thread/INFO]: Defter97 has made the advancement [Diamonds!]
+[18:40:04] [Server thread/INFO]: fiona4815 has made the advancement [Not Today, Thank You]
+[18:40:50] [Server thread/INFO]: HonyDough fell from a high place
+[18:41:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3802ms or 76 ticks behind
+[18:42:33] [Server thread/INFO]: HonyDough has made the advancement [What a Deal!]
+[18:43:02] [Server thread/INFO]: HonyDough lost connection: Disconnected
+[18:43:03] [Server thread/INFO]: HonyDough left the game
+[18:43:06] [Server thread/INFO]: Defter97 was shot by Stray
+[18:43:22] [Server thread/INFO]: fiona4815 lost connection: Disconnected
+[18:43:23] [Server thread/INFO]: fiona4815 left the game
+[18:43:29] [User Authenticator #6/INFO]: UUID of player fiona4815 is 23905dcf-854e-3b4c-86e9-ff08425ed34e
+[18:43:30] [Server thread/INFO]: fiona4815 joined the game
+[18:43:30] [Server thread/INFO]: fiona4815[/189.203.94.244:58983] logged in with entity id 20563 at ([world]640.5502902628156, 72.49520087700593, -205.08902039981106)
+[18:43:33] [User Authenticator #6/INFO]: UUID of player HonyDough is a91e223d-fbe8-328d-a1a2-ba2858b8766c
+[18:43:34] [Server thread/INFO]: HonyDough joined the game
+[18:43:34] [Server thread/INFO]: HonyDough[/189.203.100.113:55277] logged in with entity id 20714 at ([world]29.69491681599653, 70.0, 70.99574332978405)
+[18:44:49] [Server thread/INFO]: Gamequic has made the advancement [What a Deal!]
+[18:46:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2621ms or 52 ticks behind
+[18:47:06] [Server thread/INFO]: Villager Villager['Fletcher'/85, uuid='22beb352-f152-4275-a65c-83056571fc7f', l='ServerLevel[world]', x=23.32, y=70.19, z=76.14, cpos=[1, 4], tl=441485, v=true] died, message: 'Fletcher suffocated in a wall'
+[18:47:40] [Server thread/INFO]: Villager Villager['Villager'/89, uuid='aa40fdf6-708d-4549-85fa-92b7560d7626', l='ServerLevel[world]', x=23.50, y=70.19, z=76.13, cpos=[1, 4], tl=82449, v=true] died, message: 'Villager suffocated in a wall'
+[18:48:55] [Server thread/INFO]: Gamequic fell from a high place
+[18:51:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4265ms or 85 ticks behind
+[18:51:49] [Server thread/WARN]: Gamequic moved too quickly! 9.807461943724626,-1.0,-2.1252035288877664
+[18:59:40] [Server thread/INFO]: Made Gamequic a server operator
+[18:59:48] [Server thread/INFO]: Gamequic issued server command: /locate biome minecraft:soul_sand_valley
+[18:59:48] [Server thread/INFO]: Locating element minecraft:soul_sand_valley took 7 ms
+[19:01:11] [Server thread/INFO]: Gamequic burned to death
+[19:01:15] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[19:01:15] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[19:01:22] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[19:01:22] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[19:01:28] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[19:01:28] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[19:01:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2531ms or 50 ticks behind
+[19:01:52] [Server thread/WARN]: Gamequic moved too quickly! -6.352703369753577,14.99962497241485,-23.411844688096302
+[19:01:52] [Server thread/WARN]: Gamequic moved too quickly! -6.4970837316435865,14.62462495751403,-23.588514153040816
+[19:02:28] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[19:02:28] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[19:02:50] [Server thread/INFO]: fiona4815 has made the advancement [Sweet Dreams]
+[19:05:09] [Server thread/INFO]: Gamequic has made the advancement [Not Today, Thank You]
+[19:05:29] [Server thread/INFO]: Villager Villager['Farmer'/10326, uuid='33f1b032-9623-435a-8d05-dea49c4eedab', l='ServerLevel[world]', x=531.53, y=74.42, z=253.30, cpos=[33, 15], tl=240045, v=true] died, message: 'Farmer was slain by Zombie'
+[19:06:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3174ms or 63 ticks behind
+[19:07:27] [Server thread/INFO]: fiona4815 lost connection: Disconnected
+[19:07:27] [Server thread/INFO]: fiona4815 left the game
+[19:07:40] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[19:07:40] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[19:07:43] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[19:07:43] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[19:07:51] [Server thread/INFO]: Gamequic issued server command: /deop Gamequic
+[19:07:51] [Server thread/INFO]: [Gamequic: Made Gamequic no longer a server operator]
+[19:09:00] [Server thread/INFO]: Gamequic has made the advancement [The Parrots and the Bats]
+[19:11:39] [Server thread/INFO]: Made Gamequic a server operator
+[19:11:48] [Server thread/INFO]: Gamequic issued server command: /tp Defter97 Gamequic
+[19:11:48] [Server thread/INFO]: [Gamequic: Teleported Defter97 to Gamequic]
+[19:15:00] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[19:15:00] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[19:16:08] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[19:16:08] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[19:16:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3238ms or 64 ticks behind
+[19:17:57] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[19:17:57] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[19:22:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3321ms or 66 ticks behind
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 14.35579428515058,0.0,13.928996610025507
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 14.657198052332546,0.0,14.191422363800768
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 14.958739766279109,0.0,14.453744063260615
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 15.260405632310494,0.0,14.715972113839086
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 15.562185742335657,0.0,14.978112976562755
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 15.864071177210235,0.0,15.24017246821802
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 16.166051404446705,0.0,15.502158725913688
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 16.46811945006442,0.0,15.764076169183653
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 16.770266532223104,0.0,16.025931679472166
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 17.07248725066188,0.0,16.28772854621502
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 17.37477424175097,0.0,16.549472633768204
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 17.677123385344146,0.0,16.81116631618815
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 17.97952846618955,0.0,17.072814633989367
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 18.281983890560582,0.0,17.334422123634823
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 18.584487127498562,0.0,17.59598996407729
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 18.887033395745675,0.0,17.857522120238002
+[19:22:01] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 19.18961839216996,0.0,18.119022160545967
+[19:23:11] [Server thread/INFO]: HonyDough has made the advancement [Hot Stuff]
+[19:23:50] [Server thread/INFO]: Defter97 lost connection: Disconnected
+[19:23:51] [Server thread/INFO]: Defter97 left the game
+[19:25:03] [User Authenticator #7/INFO]: UUID of player Defter97 is a5c47721-34c0-3b33-a77f-497f0203ec69
+[19:25:03] [Server thread/INFO]: Defter97 joined the game
+[19:25:03] [Server thread/INFO]: Defter97[/201.146.112.198:52383] logged in with entity id 40859 at ([world]610.6391699908615, 63.0, 330.24933318050614)
+[19:27:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3815ms or 76 ticks behind
+[19:30:05] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[19:30:05] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[19:32:07] [Server thread/WARN]: Gamequic moved too quickly! 4.658497974192343,0.9755759117863079,-9.54701868096491
+[19:33:08] [Server thread/INFO]: HonyDough was slain by Zombie
+[19:40:52] [Server thread/INFO]: Gamequic issued server command: /gamemode spectator
+[19:40:52] [Server thread/INFO]: [Gamequic: Set own game mode to Spectator Mode]
+[19:40:55] [Server thread/INFO]: Gamequic issued server command: /gamemode survival
+[19:40:55] [Server thread/INFO]: [Gamequic: Set own game mode to Survival Mode]
+[19:41:09] [Server thread/INFO]: Gamequic issued server command: /deop Gamequic
+[19:41:10] [Server thread/INFO]: [Gamequic: Made Gamequic no longer a server operator]
+[19:41:20] [Server thread/INFO]: Gamequic lost connection: Disconnected
+[19:41:20] [Server thread/INFO]: Gamequic left the game
+[19:41:23] [User Authenticator #8/INFO]: UUID of player Gamequic is cdc715a3-b9b8-3400-a4cc-978c108b6745
+[19:41:24] [Server thread/INFO]: Gamequic joined the game
+[19:41:24] [Server thread/INFO]: Gamequic[/201.127.133.70:61431] logged in with entity id 49841 at ([world_nether]-19.097558896633743, 65.24269441809244, 63.64977669996188)
+[19:41:41] [Server thread/INFO]: Gamequic has made the advancement [Hot Stuff]
+[19:42:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2528ms or 50 ticks behind
+[19:44:04] [Server thread/INFO]: Gamequic has made the advancement [Local Brewery]
+[19:47:46] [Server thread/INFO]: Villager Villager['Villager'/51936, uuid='1fc2d4b0-a491-4949-abfd-9f2df56f8c8a', l='ServerLevel[world]', x=30.39, y=70.77, z=70.60, cpos=[1, 4], tl=3854, v=true] died, message: 'Villager burned to death'
+[19:47:51] [Server thread/INFO]: Villager Villager['Villager'/44210, uuid='36478650-2eb8-43cf-835a-2d014448cc84', l='ServerLevel[world]', x=29.46, y=70.00, z=71.22, cpos=[1, 4], tl=17752, v=true] died, message: 'Villager tried to swim in lava'
+[19:48:13] [Server thread/INFO]: Villager Villager['Villager'/40912, uuid='306d38b7-54cb-4687-b3d1-c26bddb73722', l='ServerLevel[world]', x=20.45, y=70.00, z=73.40, cpos=[1, 4], tl=27640, v=true] died, message: 'Villager tried to swim in lava'
+[19:52:12] [Server thread/INFO]: Villager Villager['Farmer'/87, uuid='16f6104a-b6de-4260-9bd2-1bbc2a1d6796', l='ServerLevel[world]', x=37.66, y=71.19, z=75.11, cpos=[2, 4], tl=515570, v=true] died, message: 'Farmer was slain by Pablo y Castaño la gallina'
+[19:57:42] [Server thread/INFO]: HonyDough was slain by Zombie
+[19:58:12] [Server thread/INFO]: HonyDough was slain by Zombie Villager
+[19:58:43] [Server thread/INFO]: HonyDough was shot by Skeleton
+[20:00:49] [Server thread/INFO]: Villager Villager['Toolsmith'/33945, uuid='0e627293-41a3-4461-9211-861326ea3ab7', l='ServerLevel[world]', x=26.19, y=70.19, z=70.95, cpos=[1, 4], tl=67319, v=true] died, message: 'Toolsmith was slain by Pablo y Castaño la gallina'
+[20:03:00] [Server thread/INFO]: Villager Villager['Librarian'/86, uuid='877d6c52-cc44-4f63-bce8-066796eda4bb', l='ServerLevel[world]', x=24.48, y=70.19, z=71.16, cpos=[1, 4], tl=185786, v=true] died, message: 'Librarian was slain by Zombie Villager'
+[20:03:42] [User Authenticator #9/INFO]: UUID of player fiona4815 is 23905dcf-854e-3b4c-86e9-ff08425ed34e
+[20:03:43] [Server thread/INFO]: fiona4815 joined the game
+[20:03:43] [Server thread/INFO]: fiona4815[/189.203.94.244:60895] logged in with entity id 63996 at ([world]583.297014578833, 63.0, 325.3726996795213)
+[20:04:06] [Server thread/INFO]: fiona4815 lost connection: Disconnected
+[20:04:09] [Server thread/INFO]: fiona4815 left the game
+[20:04:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3169ms or 63 ticks behind
+[20:04:09] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! -8.579996779143585,0.0,-18.504194232882583
+[20:04:09] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! -8.728009588292707,0.0,-18.875320909677157
+[20:04:09] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! -8.87356793204117,0.0,-19.24738166856605
+[20:04:09] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! -9.016727424575947,0.0,-19.62034418490248
+[20:04:09] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! -9.157559770982289,0.0,-19.994171528494007
+[20:04:09] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! -9.296143924571652,0.0,-20.368825179707528
+[20:04:09] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! -9.432569091073674,0.0,-20.744264249638945
+[20:04:09] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! -9.566926420452546,0.0,-21.120448131028752
+[20:04:09] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! -9.699312521940556,0.0,-21.497335475445198
+[20:04:09] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! -9.829825281296735,0.0,-21.874885485571667
+[20:04:09] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! -9.9585600777134,0.0,-22.25305902238506
+[20:04:09] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! -10.085613732754155,0.0,-22.63181742977349
+[20:04:09] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! -10.211080705088307,0.0,-23.011123611282528
+[20:04:09] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! -10.335053338887292,0.0,-23.390941918852604
+[20:04:09] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! -10.457622084587456,0.0,-23.771238048958367
+[20:04:44] [Server thread/INFO]: Villager Villager['Librarian'/90, uuid='d0716e4e-2307-437a-937c-eb4e41d1c7a6', l='ServerLevel[world]', x=26.45, y=70.19, z=73.61, cpos=[1, 4], tl=178472, v=true] died, message: 'Librarian was slain by Zombie Villager'
+[20:04:44] [Server thread/INFO]: Villager Villager['Armorer'/84, uuid='2ac13d1e-75f3-4033-829e-bd48ffc835bc', l='ServerLevel[world]', x=21.04, y=70.19, z=72.49, cpos=[1, 4], tl=212147, v=true] died, message: 'Armorer was slain by Zombie Villager'
+[20:04:51] [Server thread/INFO]: Villager Villager['Toolsmith'/25753, uuid='02cce8c6-73d0-47ce-a2e3-1f6c15ee87f6', l='ServerLevel[world]', x=26.46, y=70.19, z=74.99, cpos=[1, 4], tl=82353, v=true] died, message: 'Toolsmith was slain by Zombie Villager'
+[20:04:52] [Server thread/INFO]: Villager Villager['Armorer'/81, uuid='3fdc4c41-9835-4629-9728-c2a386c82432', l='ServerLevel[world]', x=21.46, y=70.19, z=73.87, cpos=[1, 4], tl=199623, v=true] died, message: 'Armorer was slain by Zombie Villager'
+[20:05:06] [User Authenticator #10/INFO]: UUID of player fiona4815 is 23905dcf-854e-3b4c-86e9-ff08425ed34e
+[20:05:07] [Server thread/INFO]: fiona4815 joined the game
+[20:05:07] [Server thread/INFO]: fiona4815[/189.203.94.244:60927] logged in with entity id 65540 at ([world]550.3374035229259, 63.0, 304.25912346337986)
+[20:05:40] [Server thread/INFO]: Gamequic was slain by Zombie Villager
+[20:06:28] [Server thread/INFO]: Defter97 has made the advancement [Ice Bucket Challenge]
+[20:07:13] [Server thread/WARN]: HonyDough moved too quickly! 11.488708284081298,0.12129684053920187,-2.0506499716253614
+[20:07:13] [Server thread/WARN]: Gamequic moved too quickly! -4.5955125259579575,-0.6084083839322858,-12.87531119590269
+[20:08:05] [Server thread/INFO]: Gamequic was slain by Zombie Villager
+[20:08:24] [Server thread/INFO]: Gamequic was slain by Zombie Villager
+[20:08:32] [Server thread/INFO]: Gamequic has reached the goal [Zombie Doctor]
+[20:10:59] [Server thread/INFO]: fiona4815 has made the advancement [We Need to Go Deeper]
+[20:12:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4311ms or 86 ticks behind
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8063522768451321,0.0,-20.324189122788994
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8102016203400808,0.0,-20.724137731834958
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8139996663346665,0.0,-21.124090076288155
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8177477097721066,0.0,-21.524045816135413
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.821450750909321,0.0,-21.924004611837233
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8251132899774802,0.0,-22.32396615780806
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8287393771844336,0.0,-22.723930179020954
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8323326577171883,0.0,-23.12389642795165
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8358964122438692,0.0,-23.523864681828286
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8394335933658112,0.0,-23.92383474015628
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8429468584241704,0.0,-24.323806422490406
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8464385990257597,0.0,-24.72377956643004
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8499071327797765,0.0,-25.12375405934216
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8533547803715464,0.0,-25.523729766329552
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8567836304176808,0.0,-25.923706565984617
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8601955626731979,0.0,-26.323684349040548
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8635922689176141,0.0,-26.723663017157264
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8669752717524943,0.0,-27.123642481828654
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8703459415189627,0.0,-27.523622663399237
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8737055115242356,0.0,-27.92360349017906
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8770550917446371,0.0,-28.32358489764721
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.880395681158916,0.0,-28.723566827734828
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8837281788479459,0.0,-29.123549228179968
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8870533939843881,0.0,-29.52353205194686
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8903720548237288,0.0,-29.923515256703297
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.893684816795826,0.0,-30.323498804350322
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.8969922697874608,0.0,-30.723482660598904
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.9002949446969524,0.0,-31.123466794588865
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.9035933193324581,0.0,-31.523451178546054
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.906887823721604,0.0,-31.923435787473693
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.9101788448890602,0.0,-32.323420598874804
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.9134667311570865,0.0,-32.72340559250199
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.9167517960157738,0.0,-33.12339075013267
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.9200343216060674,0.0,-33.5233760553665
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.9233145618547951,0.0,-33.92336149344311
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.9265927452962615,0.0,-34.32334705107826
+[20:12:15] [Server thread/WARN]: Cherry Boat (vehicle of Defter97) moved too quickly! 0.9298690776112153,0.0,-34.723332716316065
+[20:15:39] [Server thread/INFO]: fiona4815 lost connection: Disconnected
+[20:15:42] [Server thread/INFO]: fiona4815 left the game
+[20:15:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2974ms or 59 ticks behind
+[20:15:42] [Server thread/WARN]: Defter97 moved too quickly! -7.629416740957822,-0.07242780368044066,-7.974874468605037
+[20:17:12] [Server thread/INFO]: Gamequic has made the advancement [Cover Me with Diamonds]
+[20:17:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3707ms or 74 ticks behind
+[20:17:26] [User Authenticator #11/INFO]: UUID of player fiona4815 is 23905dcf-854e-3b4c-86e9-ff08425ed34e
+[20:17:27] [Server thread/INFO]: fiona4815 joined the game
+[20:17:27] [Server thread/INFO]: fiona4815[/189.203.94.244:61243] logged in with entity id 74417 at ([world]555.9814570855473, 63.0, 297.0166082029364)
+[20:17:52] [Server thread/INFO]: HonyDough lost connection: Disconnected
+[20:17:52] [Server thread/INFO]: HonyDough left the game
+[20:17:53] [User Authenticator #11/INFO]: UUID of player HonyDough is a91e223d-fbe8-328d-a1a2-ba2858b8766c
+[20:17:54] [Server thread/INFO]: HonyDough joined the game
+[20:17:54] [Server thread/INFO]: HonyDough[/189.203.100.113:58227] logged in with entity id 74541 at ([world]117.2546447521958, 71.0, 83.53885538172413)
+[20:18:25] [Server thread/INFO]: HonyDough has made the advancement [Cover Me with Diamonds]
+[20:19:02] [Server thread/INFO]: Villager Villager['Armorer'/69209, uuid='b4974a94-69af-4748-b7e8-adea1260bbf8', l='ServerLevel[world]', x=28.79, y=71.18, z=77.34, cpos=[1, 4], tl=12381, v=true] died, message: 'Armorer burned to death'
+[20:19:19] [Server thread/INFO]: Gamequic has made the advancement [Isn't It Iron Pick]
+[20:22:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4067ms or 81 ticks behind
+[20:22:26] [Server thread/WARN]: HonyDough moved too quickly! -16.515427046728846,-1.7342356006687112,-5.972855007358248
+[20:22:26] [Server thread/WARN]: fiona4815 moved too quickly! -15.965735413294283,0.7508129212553172,-13.362931778217671
+[20:27:40] [Server thread/INFO]: Gamequic has completed the challenge [Return to Sender]
+[20:30:36] [Server thread/INFO]: Villager Villager['Toolsmith'/69239, uuid='fed24131-0f43-4cda-9d17-b55e516cb036', l='ServerLevel[world]', x=22.63, y=70.56, z=75.23, cpos=[1, 4], tl=26131, v=true] died, message: 'Toolsmith burned to death'
+[20:30:49] [Server thread/INFO]: HonyDough was slain by Iron Golem
+[20:32:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3353ms or 67 ticks behind
+[20:32:29] [Server thread/WARN]: HonyDough moved too quickly! 4.491575440858213,-1.0784000015258783,-12.659999643037992
+[20:34:17] [Server thread/INFO]: HonyDough lost connection: Disconnected
+[20:34:17] [Server thread/INFO]: HonyDough left the game
+[20:35:09] [Server thread/INFO]: fiona4815 lost connection: Disconnected
+[20:35:12] [Server thread/INFO]: fiona4815 left the game
+[20:35:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3007ms or 60 ticks behind
+[20:35:12] [Server thread/WARN]: Defter97 moved too quickly! -3.2412620994025474,0.2522033402537289,-12.848954948548055
+[20:35:42] [User Authenticator #12/INFO]: UUID of player fiona4815 is 23905dcf-854e-3b4c-86e9-ff08425ed34e
+[20:35:43] [Server thread/INFO]: fiona4815 joined the game
+[20:35:43] [Server thread/INFO]: fiona4815[/189.203.94.244:61685] logged in with entity id 81060 at ([world]577.0876909530643, 59.875, 323.30000001192093)
+[20:37:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3279ms or 65 ticks behind
+[20:37:35] [Server thread/WARN]: Gamequic moved too quickly! 11.390536967854558,0.7012968536522237,8.141777534010245
+[20:42:34] [Server thread/WARN]: Cherry Boat (vehicle of Gamequic) moved wrongly! 0.7562388526583943
+[20:42:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3510ms or 70 ticks behind
+[20:47:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4011ms or 80 ticks behind
+[20:47:43] [Server thread/WARN]: Gamequic moved too quickly! 23.00053629836153,-2.2579991035152744,0.5343556031521075
+[20:49:29] [Server thread/WARN]: Oak Boat (vehicle of fiona4815) moved wrongly! 0.5653964188695682
+[20:49:29] [Server thread/WARN]: Oak Boat (vehicle of fiona4815) moved wrongly! 0.25342552222869585
+[20:49:29] [Server thread/WARN]: Oak Boat (vehicle of fiona4815) moved wrongly! 0.5026808408769909
+[20:52:14] [Server thread/INFO]: Defter97 lost connection: Disconnected
+[20:52:16] [Server thread/INFO]: Defter97 left the game
+[20:52:16] [Server thread/WARN]: fiona4815 moved too quickly! 7.4248019260998035,4.2196991844262115,5.338964536427056
+[20:52:29] [Server thread/INFO]: Stopping the server
+[20:52:29] [Server thread/INFO]: Stopping server
+[20:52:29] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.0-SNAPSHOT
+[20:52:29] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[20:52:29] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[20:52:29] [Server thread/INFO]: Saving players
+[20:52:30] [Server thread/INFO]: Gamequic lost connection: Server closed
+[20:52:30] [Server thread/INFO]: Gamequic left the game
+[20:52:30] [Server thread/INFO]: fiona4815 lost connection: Server closed
+[20:52:30] [Server thread/INFO]: fiona4815 left the game
+[20:52:30] [Server thread/INFO]: Saving worlds
+[20:52:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:52:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:52:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:52:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:52:31] [Server thread/INFO]: [ChunkHolderManager] Saved 121 block chunks, 569 entity chunks, 0 poi chunks in world 'world' in 1.05s
+[20:52:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:52:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:52:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:52:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:52:34] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 86 entity chunks, 0 poi chunks in world 'world_nether' in 0.20s
+[20:52:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:52:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:52:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:52:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:52:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.08s
+[20:52:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:52:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:52:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:52:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
